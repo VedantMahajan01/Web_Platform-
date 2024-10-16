@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search for anything">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li>
+                    <a href="#" class="active-link"><img src="images/home.png" alt="home"> <span>Home</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/network.png" alt="network"> <span>My Network</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/jobs.png" alt="jobs"> <span>Jobs</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/message.png" alt="message"> <span>Messaging</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/notification.png" alt="notification"> <span>Notifications</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+
+        <!---- Profile Dropdown Menu-->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.png">
+                    <div>
+                        <h3>Son Doe</h3>
+                        <a href="Profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+
+
+
+    </nav>
+
+    <!-------navbar close------->
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="images/user-1.png" class="profile-pic">
+                    <h1>Son John</h1>
+                    <b>Data Analyst at IBM | Power Bi developer at Accenture | Python | Machine learning Enthusiast </b>
+                    <p> India, Pune &middot; <a href="#"> Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="images/user-2.png">
+                        <span>1 mutual connection:Om Patel</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
+                        <a href="#"><img src="images/chat.png">Message</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>I am a motivated and detail-oriented Data Analyst with a passion for transforming raw data into actionable insights that drive business decisions. With a strong foundation in data analysis, I specialize in using Microsoft Excel, SQL, Python,
+                    and Power BI to extract, clean, and visualize data effectively. My expertise in Power BI allows me to create dynamic, interactive dashboards that empower stakeholders to explore data with ease and uncover trends.</p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="images/microsoft.png">
+                    <div>
+                        <h3>Data Analyst</h3>
+                        <b>IBM &middot; Full-time</b>
+                        <b>Jan 2023 - present &middot; 1.5years</b>
+                        <p>I inspired by the work being done at IBM in leveraging data and AI for innovative solutions, and I am eager to contribute to such impactful projects. My goal is to combine analytical rigor with cutting-edge technology to deliver
+                            meaningful insights and improve operational efficiency.</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/slack.png">
+                    <div>
+                        <h3>Power Bi developer</h3>
+                        <b>Accenture &middot; Full-time</b>
+                        <b>sep 2021 - Jan 2023 &middot; 3years</b>
+                        <p>I inspired by the work being done at IBM in leveraging data and AI for innovative solutions, and I am eager to contribute to such impactful projects. My goal is to combine analytical rigor with cutting-edge technology to deliver
+                            meaningful insights and improve operational efficiency.</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/google.png">
+                    <div>
+                        <h3>freelancer</h3>
+                        <b>UpWork &middot; freelancing</b>
+                        <b>sep 2021 &middot; 6 month</b>
+                        <p>I inspired by the work being done at IBM in leveraging data and AI for innovative solutions, and I am eager to contribute to such impactful projects. My goal is to combine analytical rigor with cutting-edge technology to deliver
+                            meaningful insights and improve operational efficiency.</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-description">
+                    <h2>Education</h2>
+                    <div class="profile-desc-row">
+                        <img src="images/stanford.png">
+                        <div>
+                            <h3>Pune University</h3>
+                            <b>B-tech, Computer Science</b>
+                            <b>2018-2021</b>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="profile-desc-row">
+                        <img src="images/north.png">
+                        <div>
+                            <h3>SpringDale Public School</h3>
+                            <b>HSC - 88%</b>
+                            <b>2019</b>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="profile-desc-row">
+                        <img src="images/north.png">
+                        <div>
+                            <h3>SpringDale Public School</h3>
+                            <b>SSC - 90%</b>
+                            <b>2019</b>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="profile-description">
+                        <h2>Skills</h2>
+                        <a href="#" class="skills-btn">Leadership</a>
+                        <a href="#" class="skills-btn">Cloud Computing</a>
+                        <a href="#" class="skills-btn">machine learning</a>
+                        <a href="#" class="skills-btn">Gen AI</a>
+                        <a href="#" class="skills-btn">Power Bi</a>
+                        <a href="#" class="skills-btn">Python</a>
+                        <a href="#" class="skills-btn">SQL</a>
+                        <a href="#" class="skills-btn">Communication</a>
+                        <a href="#" class="skills-btn">Enterprenuorship</a>
+                        <hr>
+                    </div>
+
+                    <div class="profile-description">
+                        <h2>Languages</h2>
+                        <a href="#" class="language-btn">English</a>
+                        <a href="#" class="language-btn">German</a>
+                        <a href="#" class="language-btn">Hindi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!------profile sidebar----->
+        <div class="profile-sidebar">
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master in Web Development</p>
+                <div>
+                    <img src="images/user-1.png">
+                    <img src="images/mi-logo.png">
+
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="images/user-3.png">
+                    <div>
+                        <h2>Pranity Chopra</h2>
+                        <p>Marketing Manager at Google </p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="images/user-2.png">
+                    <div>
+                        <h2>Rajiv Lodha</h2>
+                        <p>Marketing Manager at Google </p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-4.png">
+                    <div>
+                        <h2>Veena Patil</h2>
+                        <p>Marketing Manager at Google </p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-5.png">
+                    <div>
+                        <h2>Soham Patel</h2>
+                        <p>Marketing Manager at Google </p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-3.png">
+                    <div>
+                        <h2>Rakhi Chopra</h2>
+                        <p>Marketing Manager at Google </p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-5.png">
+                    <div>
+                        <h2>Ram Gujrathi</h2>
+                        <p>Marketing Manager at Google </p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="profile-footer">
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+
+            <div class="copyright-msg">
+                <img src="images/logo.png">
+                <p>Linkedin &#169; 2022. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="newFile.js"></script>
+</body>
+
+</html>
